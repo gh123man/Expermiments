@@ -6,5 +6,5 @@ CFLAGS=-std=c++0x -Wall
 mappingMembers: mappingMembers.cpp
 	$(CC) $(CFLAGS) mappingMembers.cpp -o mappingMembers
 	
-clean: mappingMembers.cpp
+clean:
 	rm -rf mappingMembers
