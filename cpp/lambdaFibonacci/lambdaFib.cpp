@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
 
     std::cout << fib(atoi(argv[1])) << std::endl;
 
-	return 0;
+    return 0;
 }
 
 
